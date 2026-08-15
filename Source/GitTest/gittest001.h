@@ -1,15 +1,6 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+#include "NativeGameplayTags.h"
 
-#pragma once
-
-#include "CoreMinimal.h"
-
-/**
- * 
- */
-class GITTEST_API gittest001
+namespace JSGameplayTags
 {
-public:
-	gittest001();
-	~gittest001();
-};
+	PF_RPG_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag);
+}
